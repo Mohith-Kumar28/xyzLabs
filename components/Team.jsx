@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div className="font-krona">
+    <div className="font-krona py-16">
       <h2 className=" sm:text-3xl text-3xl text-center mb-4 font-medium bg-gradient-to-t from-pri-blue to-pri-cyan bg-clip-text text-transparent">
         Team
       </h2>
