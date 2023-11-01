@@ -17,6 +17,7 @@ module.exports = {
         "pri-cyan": "#2FD9A6",
         "sec-cyan": "#123544",
         "text-gray": "#5E5E5E",
+        "text-light-gray": "#b5bec3",
         "primary-bg-light": "#111116",
       },
       backgroundImage: {
