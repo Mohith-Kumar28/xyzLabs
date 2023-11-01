@@ -22,10 +22,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${krona.variable}`}>
-        <NavBar />
-        {children}
-        <Footer />
+      <body className={`${inter.variable} ${krona.variable} `}>
+        <div className="bg-pri-bg">
+          <NavBar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

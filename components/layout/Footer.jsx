@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="bg-pri-bg">
       <footer className="font-krona  mt-56">
-        <div className="bg-white mx-16 h-1 rounded-full bg-gradient-to-r from-pri-blue to-pri-cyan  "></div>
+        <div className=" mx-16 h-1  rounded-full bg-gradient-to-r from-pri-blue to-pri-cyan  "></div>
         <div className="container px-5 pb-16 pt-16 mx-auto flex items-center sm:flex-row flex-col ">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <svg

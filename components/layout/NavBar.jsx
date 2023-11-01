@@ -3,7 +3,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className="flex gap-6 md:gap-16 p-6 absolute top-0 z-10 left-0 w-full justify-center font-krona">
+    <div className="flex gap-6 md:gap-16 p-6 text-white absolute top-0 z-10 left-0 w-full justify-center font-krona">
       <Link className="" href="#">
         Home
       </Link>

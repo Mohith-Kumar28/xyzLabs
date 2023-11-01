@@ -93,7 +93,7 @@ const AboutUs = () => {
           <div className="rounded-xl p-3 bg-sec-cyan absolute -top-8 right-14">
             <PresentationChartLineIcon className=" w-10 fill-pri-cyan " />
           </div>
-          <h3 className="font-inter text-xl font-bold">
+          <h3 className="font-inter text-xl font-bold text-white">
             Focus On Your
             <br /> Craft
           </h3>
@@ -109,7 +109,7 @@ const AboutUs = () => {
           <div className="rounded-xl p-3 bg-sec-cyan absolute -top-8 right-14">
             <WrenchScrewdriverIcon className=" w-10 fill-pri-cyan " />
           </div>
-          <h3 className="font-inter text-xl font-bold">
+          <h3 className="font-inter text-xl  font-bold text-white">
             {" "}
             No Investment <br /> Required
           </h3>
@@ -122,7 +122,9 @@ const AboutUs = () => {
           <div className="rounded-xl p-3 bg-sec-cyan absolute -top-8 right-14">
             <BanknotesIcon className=" w-10 fill-pri-cyan " />
           </div>
-          <h3 className="font-inter text-xl font-bold">Shared Success</h3>
+          <h3 className="font-inter text-xl font-bold text-white">
+            Shared Success
+          </h3>
           <p className="text-text-gray mt-4">
             Our unique business model ensures your interests are at the
             forefront. We share the equity, making it a partnership where
