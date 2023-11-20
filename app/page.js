@@ -13,14 +13,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="w-full h-screen">
+      {/* <div className="w-full h-screen">
         <Canvas shadows camera={{ position: [0, 0, 5], fov: 30 }}>
           <color attach="background" args={["#070707"]} />
           <ScrollControls pages={4}>
             <HeroExperience />
           </ScrollControls>
         </Canvas>
-      </div>
+      </div> */}
       <Hero />
       <AboutUs />
       <Steps />
